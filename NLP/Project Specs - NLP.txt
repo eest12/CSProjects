@@ -1,0 +1,14 @@
+Erika Estrada - CS 8
+Natural Language Processing
+
+* get sentence from user and tokenize words
+* use binary search to find words in dictionary and tag parts of speech
+* use BNF to build parser using a general tree
+* tree uses recursion and top-down design, starting from Sentence non-terminal and moving down to each terminal
+* when a terminal is reached and satisfies a condition for the tree, a node is created, and the previous function creates another node to connect to it, and so on until Sentence node is reached again
+* parse declarative and interrogative sentences
+* use predicate logic as a model to come up with a design to answer questions
+* use database to store given sentences and inferences based on those sentences
+* inferences are certain pre-defined verbs (eg. relationship between “giving” and “having”)
+* store sentences based on verb, and include main arguments (subject/objects)
+* compare questions to stored sentences, finding the correct verb and then similar arguments to try to guess the answer
